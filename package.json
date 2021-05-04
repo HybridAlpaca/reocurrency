@@ -1,0 +1,13 @@
+{
+  "name": "reocurrency",
+  "version": "1.0.0",
+  "description": "cum",
+  "main": "server/server.js",
+  "repository": "https://github.com/HybridAlpaca/reocurrency.git",
+  "author": "StickyFingies <sethtraman@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
