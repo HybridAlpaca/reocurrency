@@ -7,3 +7,6 @@ ReoCurrency prototype app (nuts)
 - Casimir Kash
 - Evan Moscicki
 - Seth Traman
+- Eli Newlin
+- Edward Navarro
+- ReoCurrrency Dog

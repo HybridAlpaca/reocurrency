@@ -1,13 +1,18 @@
 {
   "name": "reocurrency",
   "version": "1.0.0",
-  "description": "cum",
+  "description": "A fluid easy-to-use currency management application",
   "main": "server/server.js",
   "repository": "https://github.com/HybridAlpaca/reocurrency.git",
   "author": "StickyFingies <sethtraman@gmail.com>",
-  "license": "MIT",
+  "license": "ReoCurrency",
   "type": "module",
   "dependencies": {
+    "electron": "^13.1.6",
     "express": "^4.17.1"
+  },
+  "scripts": {
+    "server": "node server/server.js",
+    "app": "electron server/app.cjs"
   }
 }
