@@ -1,18 +1,33 @@
 {
-  "name": "reocurrency",
-  "version": "1.0.0",
-  "description": "A fluid easy-to-use currency management application",
-  "main": "server/server.js",
-  "repository": "https://github.com/HybridAlpaca/reocurrency.git",
-  "author": "StickyFingies <sethtraman@gmail.com>",
-  "license": "ReoCurrency",
-  "type": "module",
-  "dependencies": {
-    "electron": "^13.1.6",
-    "express": "^4.17.1"
-  },
-  "scripts": {
-    "server": "node server/server.js",
-    "app": "electron server/app.cjs"
-  }
+    "name": "reocurrency",
+    "version": "1.0.0",
+    "description": "A fluid easy-to-use currency management application",
+    "main": "server/server.js",
+    "repository": "https://github.com/HybridAlpaca/reocurrency.git",
+    "author": "StickyFingies <sethtraman@gmail.com>",
+    "license": "ReoCurrency",
+    "type": "module",
+    "dependencies": {
+        "@paypal/paypal-js": "^4.0.6",
+        "electron": "^15.2.0",
+        "express": "^4.17.1",
+        "request": "^2.88.2"
+    },
+    "scripts": {
+        "app": "electron static/scripts/app.cjs",
+        "build": "webpack --watch --progress"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.13",
+        "@types/request": "^2.48.7",
+        "@typescript-eslint/eslint-plugin": "^4.28.5",
+        "@typescript-eslint/parser": "^4.28.5",
+        "eslint": "^7.31.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-plugin-import": "^2.23.4",
+        "ts-loader": "^9.2.4",
+        "typescript": "^4.3.5",
+        "webpack": "^5.44.0",
+        "webpack-cli": "^4.7.2"
+    }
 }

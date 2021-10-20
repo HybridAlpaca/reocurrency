@@ -1,8 +1,7 @@
-/*
-DESIGN
-- disable scrollbars (done)
-*/
-
 html, body {
     overflow: hidden;
+}
+
+body {
+    padding-top: 20%;
 }
